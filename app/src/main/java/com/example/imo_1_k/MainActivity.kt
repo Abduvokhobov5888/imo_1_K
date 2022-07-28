@@ -29,6 +29,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun getAllChats(): ArrayList<Chat> {
         val chats:ArrayList<Chat> = ArrayList()
+
         chats.add(Chat(R.drawable.foto2,"Omonboyev Abdulhakim",2))
         chats.add(Chat(R.drawable.foto3,"Muqumjonov Yunusbek",0))
         chats.add(Chat(R.drawable.foto4,"Abdurashidov Muslimbek",7))
